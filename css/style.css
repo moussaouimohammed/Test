@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    margin-top: 70px;
+}
+
+p {
+    padding: 15px 5px 0px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: relative;
+    line-height: 1.8;
+}
+
+.section1, .section2, .section3 {
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: 3px;
+    text-align: justify;
+    position: relative;
+    border-radius: 15px;
+}
+
+.section1 {
+    background-color: whitesmoke;
+}
+
+.section2 {
+    background-color: darkred;
+    color: white;
+}
+
+.section3 {
+    background-color: white;
+}
+
+span {
+    font-size: 20px;
+    width: 150px;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    top: 0;
+    right: 0;
+    margin: 0;
+    position: absolute;
+    border-radius: 15px;
+}
+
+#title1 {
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+}
+
+#title2 {
+    background-color: rgb(250, 0, 0);
+    color: black;
+}
+
+#title3 {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+
+.row {
+    width: 100%;
+}
+
+/* The Desktop view */
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+    }
+}
+
+/* The Tablet view */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+    .col-md-12 {
+        width: 100%;
+        float: left;
+    }
+}
+
+/* The mobile phone view */
+
+@media (max-width: 767px) {
+    .col-sx-12 {
+        float: left;
+        width: 100%;
+    }
+}
